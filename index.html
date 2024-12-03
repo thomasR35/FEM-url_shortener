@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Fjalla+One&family=Gowun+Dodum&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-menu">
+        <img src="./images/logo.svg" alt="Shortly logo" />
+        <menu class="menu-left">
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
+        </menu>
+      </div>
+      <menu class="menu-right">
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+      </menu>
+    </header>
+
+    <main>
+      <section class="quarter-page">
+        <article>
+          <h1>More than just shorter links</h1>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="getStarted">Get Started</button>
+        </article>
+        <article>
+          <img
+            src="./images/illustration-working.svg"
+            alt="Working illustration"
+          />
+        </article>
+      </section>
+
+      <section class="url-shortener">
+        <form class="form">
+          <input type="url" class="main-input" required />
+          <button class="shorten-btn">Shorten it!</button>
+        </form>
+        <div class="url-list">
+          <div class="url-pair">
+            <p class="url-pair__base">https://www.frontendmentor.io</p>
+            <a class="url-pair__transformed" href="https://tinyurl.com/2s3tdar2"
+              >https://tinyurl.com/2s3tdar2</a
+            >
+            <div class="controls">
+              <button class="url-pair__copy-link">Copy</button>
+              <button class="url-pair_delete">Delete</button>
+            </div>
+          </div>
+          <div class="url-pair">
+            <p class="url-pair__base">https://www.frontendmentor.io</p>
+            <a class="url-pair__transformed" href="https://tinyurl.com/2s3tdar2"
+              >https://tinyurl.com/2s3tdar2</a
+            >
+            <div class="controls">
+              <button class="url-pair__copy-link url-pair__copy-link--copied">
+                Copied !
+              </button>
+              <button class="url-pair_delete">Delete</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <article class="half-page">
+          <h2>Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </article>
+      </section>
+
+      <section class="scaled-boxes">
+        <article>
+          <img
+            src="images/icon-brand-recognition.svg"
+            alt="Brand Recognition"
+          />
+          <h3>Brand Recognition</h3>
+          <p>
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </article>
+
+        <article>
+          <img src="images/icon-detailed-records.svg" alt="Detailed Records" />
+          <h3>Detailed Records</h3>
+          <p>
+            Gain insights into who is clicking your links. Knowing when and
+            where people engage with your content helps inform better decisions.
+          </p>
+        </article>
+
+        <article>
+          <img
+            src="images/icon-fully-customizable.svg"
+            alt="Fully Customizable"
+          />
+          <h3>Fully Customizable</h3>
+          <p>
+            Improve brand awareness and content discoverability through
+            customizable links, supercharging audience engagement.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <section class="pre-foot">
+        <h2>Boost your links today</h2>
+        <button class="getStarted">Get Started</button>
+      </section>
+
+      <section class="post-foot">
+        <img src="./images/logo.svg" alt="Shortly logo" />
+        <article>
+          <h4>Features</h4>
+          <a href="#">Link Shortening</a>
+          <a href="#">Branded Links</a>
+          <a href="#">Analytics</a>
+        </article>
+
+        <article>
+          <h4>Resources</h4>
+          <a href="#">Blog</a>
+          <a href="#">Developers</a>
+          <a href="#">Support</a>
+        </article>
+
+        <article>
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Our Team</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+        </article>
+
+        <article class="icons">
+          <a href="#"
+            ><img src="./images/icon-facebook.svg" alt="Facebook icon"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-twitter.svg" alt="Twitter icon"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-pinterest.svg" alt="Pinterest icon"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-instagram.svg" alt="Instagram icon"
+          /></a>
+        </article>
+      </section>
+    </footer>
+  </body>
+</html>
